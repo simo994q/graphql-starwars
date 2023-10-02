@@ -19,9 +19,9 @@ export const MainPage = () => {
         <>
             <p>dav</p>
             <div>
-                {data.allPeople.people.map((item) => {
+                {data.allPeople.people.map((item, index) => {
                     return (
-                        <p>{item.name}</p>
+                        <p key={index}>{item.name}</p>
                     )
                 })}
             </div>

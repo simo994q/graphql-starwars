@@ -1,6 +1,6 @@
 import './App.css'
 import { MainPage } from './pages/MainPage'
-import { useQuery, useQueryClient, QueryClient, QueryClientProvider} from '@tanstack/react-query'
+import { QueryClient, QueryClientProvider} from '@tanstack/react-query'
 
 function App() {
 
